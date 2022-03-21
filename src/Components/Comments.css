@@ -1,0 +1,49 @@
+.comments{
+    display: inline-block;
+    background-color: azure;
+    padding: 20px 40px;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.commnets-Heading{
+    font-size: 28px;
+}
+
+/* .commnets-container{
+    border: 1px solid black;
+} */
+
+.singleCommnet{
+    border: 2px solid dimgray;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-left: 5%;
+    background: whitesmoke;
+    margin-top: 1%;
+     padding: 10px 20px;
+}
+
+
+.comment-actions{
+    display: flex;
+    gap:6px;
+}
+
+.comment-actions > div{
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.commnet-author{
+    display: flex;
+    border-bottom:2px solid gray;
+    height: 50px;
+   
+    width: max-content;
+    align-items: center;
+    gap: 10px;
+}
